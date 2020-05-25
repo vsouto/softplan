@@ -1,3 +1,16 @@
+## Softplan Teste
+
+Teste feito por Victor Souto <souto.victor@gmail.com>
+
+## Ecossystem
+
+react
+redux
+material design
+reselect
+react-loader-spinner
+react-promise-tracker
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
