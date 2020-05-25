@@ -1,6 +1,5 @@
 import { combineReducers } from 'redux'
-import heroes from './todos'
-import visibilityFilter from './visibilityFilter'
+import heroes from './heroes'
 
 const rootReducer = combineReducers({
   heroes

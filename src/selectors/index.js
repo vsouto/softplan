@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect'
-import { GET_ALL } from '../constants/TodoFilters'
+//import { GET_ALL } from '../constants/ActionTypes'
 
 const getHeroes = state => state.heroes
 

@@ -7,7 +7,7 @@ describe('todos reducer', () => {
       heroes(undefined, {})
     ).toEqual([
       {
-        text: 'Use Redux',
+        text: 'Hulk',
         completed: false,
         id: 0
       }
@@ -22,7 +22,7 @@ describe('todos reducer', () => {
           completed: true,
           id: 1
         }, {
-          text: 'Use Redux',
+          text: 'Hulk',
           completed: false,
           id: 0
         }
@@ -31,7 +31,7 @@ describe('todos reducer', () => {
       })
     ).toEqual([
       {
-        text: 'Use Redux',
+        text: 'Hulk',
         completed: false,
         id: 0
       }

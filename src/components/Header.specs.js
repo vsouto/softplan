@@ -4,7 +4,7 @@ import Header from './Header'
 
 const setup = () => {
   const props = {
-    addTodo: jest.fn()
+    getAll: jest.fn()
   }
 
   const renderer = createRenderer();
@@ -27,18 +27,8 @@ describe('components', () => {
 
       const [ h1, input ] = output.props.children
       expect(h1.type).toBe('h1')
-      expect(h1.props.children).toBe('todos')
-      expect(input.props.newTodo).toBe(true)
+      expect(h1.props.children).toBe('heroes')
       expect(input.props.placeholder).toBe('What needs to be done?')
     })
-/*
-    it('should call addTodo if length of text is greater than 0', () => {
-      const { output, props } = setup()
-      const input = output.props.children[1]
-      input.props.onSave('')
-      expect(props.addTodo).not.toBeCalled()
-      input.props.onSave('Use Redux')
-      expect(props.addTodo).toBeCalled()
-    })*/
   })
 })
